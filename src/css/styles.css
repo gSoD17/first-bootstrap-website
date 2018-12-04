@@ -1,3 +1,32 @@
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.fa:hover{
+    opacity: 0.8;
+}
+
+.fa-facebook{
+    color: white;
+}
+
+.fa-twitter{
+    color: white;
+}
+
+.fa-google{
+    color: white;
+}
+
+.fa-linkedin{
+    color: white;
+}
+
 .jumbotron{
     background-size: cover;
     background-image: url("../../assets/steven-roe-1045539-unsplash.jpg"); /*Photo by Olivier Miche on Unsplash*/
@@ -16,4 +45,28 @@
 .jumbotron hr{
     border: 1px solid white;
     max-width: 80%;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.footer{
+    background-color: #dc59b3;
+    color: white;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.footer-copyright{
+    background-color: #852d69;
+    color: white;
+    text-align: center;
+}
+
+.footer-copyright p{
+    margin: 10px;
+    font-size: 14px;
 }
