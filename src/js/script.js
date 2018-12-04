@@ -9,7 +9,10 @@ $(document).ready(function() {
                 scrollStart = $(this).scrollTop();
 
                 if (scrollStart > offset.top) {
-                    $(".navbar").css('background-color', '#f0f0f0');
+                    $(".navbar").css({
+                        'background-color': 'white',
+                        'color': 'black'
+                    });
                 } else {
                     $('.navbar').css('background-color', 'transparent');
                 }
@@ -18,7 +21,18 @@ $(document).ready(function() {
     })
 
     // ScrollReval Code
-    ScrollReveal().reveal('.headline', { delay: 500 });
-    ScrollReveal().reveal('.title', { delay: 1000 });
-    ScrollReveal().reveal('.tagline', { delay: 1200 });
+    ScrollReveal().reveal('.headline-1', {
+        delay: 2000,
+        distance: '100px',
+        origin: 'left'
+    });
+
+    ScrollReveal().reveal('.headline-2', {
+        delay: 2000,
+        distance: '100px',
+        origin: 'right'
+    });
+    
+    ScrollReveal().reveal('.title', { delay: 2000 });
+    ScrollReveal().reveal('.tagline', { delay: 2000 });
 })
