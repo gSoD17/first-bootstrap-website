@@ -51,12 +51,16 @@
     margin-top: 100px;
 }
 
+.row-body{
+    margin-bottom: 100px;
+}
+
 .footer{
     background-color: #dc59b3;
     color: white;
     margin-top: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
