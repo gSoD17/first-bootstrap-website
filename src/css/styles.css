@@ -2,6 +2,14 @@ body{
     overflow-x: hidden;
 }
 
+nav h1{
+    color: white;
+}
+
+nav a{
+    color: #81898a;
+}
+
 .fa{
     padding: 20px;
     font-size: 30px;
@@ -31,9 +39,13 @@ body{
     color: white;
 }
 
-.nav-change{
+.bg-clear{
+    transition: all 200ms linear;
+}
+
+.bg-clear.scrolled{
     background-color: white;
-    color: black;
+    transition: background-color 200ms linear;
 }
 
 .jumbotron{
