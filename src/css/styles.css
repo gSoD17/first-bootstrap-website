@@ -2,14 +2,6 @@ body{
     overflow-x: hidden;
 }
 
-nav h1{
-    color: white;
-}
-
-nav a{
-    color: #81898a;
-}
-
 .fa{
     padding: 20px;
     font-size: 30px;
@@ -43,13 +35,14 @@ nav a{
     transition: all 200ms linear;
 }
 
-.bg-clear.scrolled{
+.bg-white{
     background-color: white;
-    transition: background-color 200ms linear;
+    transition: all 200ms linear;
 }
 
 .jumbotron{
     background-size: cover;
+    /* background-position: top center; */
     background-image: url("../../assets/steven-roe-1045539-unsplash.jpg"); /*Photo by Olivier Miche on Unsplash*/
     padding-top: 200px;
     padding-bottom: 200px;
