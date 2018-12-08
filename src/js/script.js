@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     ScrollReveal().reveal('.headline-2', {
         delay: 1200,
-        distance: '0px',
+        distance: '100px',
         origin: 'right'
     });
     
